@@ -1,0 +1,23 @@
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+scanner-agent
+
+# Go test/build artifacts
+*.test
+*.out
+go.work
+go.work.sum
+
+# Environment files
+.env
+.env.*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
